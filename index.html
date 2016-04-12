@@ -3,66 +3,132 @@
   <head>
     <meta charset="utf-8">
     <title>Music Mountain Email</title>
-
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+    <style>
+    .greeting h1{
+    	font-family:'Anton', sans-serif;
+    	font-size: 65px;
+    	color: #022F80;
+    	font-weight: 700;
+    	padding-left:12%;
+    }
+    .greeting p{
+    	font-family: Arial,Helvetica,sans-serif;
+    	color: #022F80;
+    	padding-left:12%;
+    	font-size:44px;
+    }
+    .water-is h2{
+    	font-family: 'Anton', sans-serif;
+    	font-size: 3rem;
+    	color: #022F80;
+    	font-weight: 700;
+    	padding-left:18%;
+      margin-bottom: 0;
+    }
+    .water-is ul{
+    	padding-left:25%;
+    }
+    .water-is li{
+    	font-family: Arial,Helvetica,sans-serif;
+    	font-size: 35px;
+    	color: #022F80;
+    }
+    .service-is h2{
+    	font-family: 'Anton', sans-serif;
+    	color: #022F80;
+    	font-size: 3rem;
+    	font-weight: 700;
+      margin-bottom: 0;
+    }
+    .service-is li{
+    	font-family: Arial,Helvetica,sans-serif;
+    	font-size: 35px;
+    	color: #022F80;
+    }
+    .learn-more{
+    	font-family: Arial,Helvetica,sans-serif;
+    	color: #022F80;
+    	font-size: 38px;
+    	padding-left: 10%;
+    }
+    .click-here{
+    	color: #5590C3;
+    }
+    .icon{
+    	vertical-align:middle;
+    	padding-left:10%;
+    	padding-right:2%;
+      max-width: 60px;
+    }
+    .contact-text{
+    	font-family: Arial,Helvetica,sans-serif;
+    	font-size: 25px;
+    	color: #022F80;
+    }
+    </style>
   </head>
   <body>
-  <style>
-  </style>
+
   <table style="width: 98%;">
-      <tr>
-        <td colspan="2">
-        <img src="assets/MM-Header-Img.jpg" width="100%">
+    <tr>
+      <td colspan="2">
+        <img src="/images/refer-a-friend/MM-Header-Img.jpg" width="100%">
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        <h1 style="font-family: Arial,Helvetica,sans-serif;;font-size: 65px;color: #022F80;font-weight: 700;padding-left:12%;">HI John Doe!</h1>
-        <p style="font-family: Arial,Helvetica,sans-serif;color: #022F80;padding-left:12%;font-size:44px;">Jane Doe loves Music Mountain Water and highly recommends their delivery service!</p>
+        <div class="greeting">
+          <h1>HI John Doe!</h1>
+          <p>Jane Doe loves Music Mountain Water and highly recommends their delivery service!</p>
+        </div>
       </td>
     </tr>
     <tr>
       <td>
-      <h2 style="font-family: Arial,Helvetica,sans-serif;font-size: 36px;color: #022F80;font-weight: 700;padding-left:18%">THEIR SPRING WATER IS</h2>
-      <ul style="padding-left:25%">
-        <li style="font-family: Arial,Helvetica,sans-serif;font-size: 35px;color: #022F80;">Sodium-free</li>
-        <li style="font-family: Arial,Helvetica,sans-serif;font-size: 35px;color: #022F80;">Naturally rich in calcium</li>
-        <li style="font-family: Arial,Helvetica,sans-serif;font-size: 35px;color: #022F80;">Great for your health</li>
-        <li style="font-family: Arial,Helvetica,sans-serif;font-size: 35px;color: #022F80;">Smooth and sweet-tasting</li>
-        <li style="font-family: Arial,Helvetica,sans-serif;font-size: 35px;color: #022F80;">Ecofriendly</li>
-      </ul>
-    </td>
-    <td>
-      <h2 style="font-family: Arial,Helvetica,sans-serif;color: #022F80;font-size: 36px;font-weight: 700;">...AND THEIR SERVICE IS</h2>
-      <ul>
-        <li style="font-family: Arial,Helvetica,sans-serif;font-size: 35px;color: #022F80;">Reliable</li>
-        <li style="font-family: Arial,Helvetica,sans-serif;font-size: 35px;color: #022F80;">Friendly</li>
-        <li style="font-family: Arial,Helvetica,sans-serif;font-size: 35px;color: #022F80;">Customizable</li>
-        <li style="font-family: Arial,Helvetica,sans-serif;font-size: 35px;color: #022F80;">Affordable</li>
-        <li style="font-family: Arial,Helvetica,sans-serif;font-size: 35px;color: #022F80;">Convenient for home and office</li>
-      </ul>
-    </td>
-  </tr>
-    <tr>
-      <td colspan="2">
-      <p style="font-family: Arial,Helvetica,sans-serif;color: #022F80;font-size: 38px;padding-left: 10%;"><a style="color: #5590C3;" href="#">CLICK HERE</a> to learn more and sign up!</p>
+        <div class="water-is">
+          <h2>THEIR SPRING WATER IS</h2>
+          <ul>
+            <li>Sodium-free</li>
+            <li>Naturally rich in calcium</li>
+            <li>Great for your health</li>
+            <li>Smooth and sweet-tasting</li>
+            <li>Ecofriendly</li>
+          </ul>
+        </div>
+      </td>
+      <td>
+        <div class="service-is">
+          <h2>...AND THEIR SERVICE IS</h2>
+          <ul>
+            <li>Reliable</li>
+            <li>Friendly</li>
+            <li>Customizable</li>
+            <li>Affordable</li>
+            <li>Convenient for home and office</li>
+          </ul>
+        </div>
+      </td>
     </tr>
     <tr>
+      <td colspan="2">
+        <p class="learn-more" ><a class="click-here" href="#">CLICK HERE</a> to learn more and sign up!</p>
+      </td>
+    </tr>
       <table width="98%">
         <tr>
-          <td style="font-family: Arial,Helvetica,sans-serif;font-size: 25px;color: #022F80;"><img style="vertical-align:middle;padding-left:10%;padding-right:2%;" src="assets/bullet-img-1.jpg">www.musicmountain.com</td>
+          <td class="contact-text"><img class="icon" src="/images/refer-a-friend/bullet-img-1.jpg">www.musicmountain.com</td>
         </tr>
         <tr>
-          <td style="font-family: Arial,Helvetica,sans-serif;font-size: 25px;color: #022F80;"><img style="vertical-align:middle;padding-left:10%;padding-right:2%;" src="assets/bullet-img-2.jpg">www.facebook.com/MusicMountainWater</td>
+          <td class="contact-text"><img class="icon" src="/images/refer-a-friend/bullet-img-2.jpg">www.facebook.com/MusicMountainWater</td>
         </tr>
         <tr>
-          <td style="font-family: Arial,Helvetica,sans-serif;font-size: 25px;color: #022F80;"><img style="vertical-align:middle;padding-left:10%;padding-right:2%;" src="assets/bullet-img-3.jpg">1.800.349.6555</td>
+          <td class="contact-text"><img class="icon" src="/images/refer-a-friend/bullet-img-3.jpg">1.800.349.6555</td>
         </tr>
-          </td>
-        </table>
-      </tr>
+      </table>
     <tr>
       <td colspan="2">
-        <img src="assets/MM-Footer-Img.jpg" width="100%">
+        <img src="/images/refer-a-friend/MM-Footer-Img.jpg" width="100%">
       </td>
     </tr>
   </table>
